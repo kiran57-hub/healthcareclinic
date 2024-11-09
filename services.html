@@ -1,0 +1,73 @@
+
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>General Medicine</li>
+            <li>Pediatrics</li>
+            <li>Preventive Care</li>
+            <li>Vaccinations</li>
+            <li>Health Screenings</li>
+        </ul>
+    </section>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f1f1f1;
+        }
+
+        /* Container for the sliding text */
+        .sliding-text-container {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 18px;
+            overflow: hidden;
+        }
+
+        .sliding-text {
+            display: inline-block;
+            white-space: nowrap;
+            animation: slide 10s linear infinite;
+        }
+
+        /* Keyframe animation for sliding effect */
+        @keyframes slide {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="project style.css"> <!-- Link to external CSS file -->
+    <nav>
+        <a href="index.html">First Page</a>
+
+    </nav>
+    <nav>
+        <a href="welcom.html">Back</a>
+        
+    </nav>
+    <!-- Sliding text at the bottom of the page -->
+    <div class="sliding-text-container">
+        <div class="sliding-text">
+            "Who has Health, has Hope, and Who has Hope, Has EVERYTHING"
+        </div>
+    </div>
+
+    
+
+    

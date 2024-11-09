@@ -1,0 +1,48 @@
+/* Simple styles for layout of service page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5270e8;
+}
+body:hover{
+    background-color: #f49797;}
+
+header {
+    background: #00ff37; /* Blue header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin: 30px 0;
+}
+
+nav a {
+    color: rgb(242, 247, 244);
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: rgb(240, 231, 231);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(100, 44, 44, 0.1);
+}
+section :hover
+{ 
+    background-color: #2c5473;
+
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #091016;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
